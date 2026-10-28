@@ -16,9 +16,19 @@ paho-mqtt>=2.1
 pymodbus>=3.8
 asyncua>=1.1
 
+# Config file parsing
+PyYAML>=6.0
+
 # Machine learning
 scikit-learn>=1.5
 lightgbm>=4.5
+
+# Testing
+pytest>=8.0
+pytest-django>=4.9
+
+# Templating (EN 50160 reports)
+Jinja2>=3.1
 
 # Development tools
 ipykernel>=6.29
