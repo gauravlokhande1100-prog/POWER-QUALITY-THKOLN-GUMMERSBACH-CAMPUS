@@ -1,5 +1,7 @@
 <div align="center">
 
+![banner](docs/banner.svg)
+
 # ⚡ ITS: Power Quality Management
 ### TH Köln – Campus Gummersbach
 

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f7971e"/>
+      <stop offset="100%" style="stop-color:#ffd200"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="160" fill="url(#bg)" rx="12"/>
+
+  <!-- Accent line -->
+  <rect x="0" y="0" width="900" height="4" fill="url(#glow)" rx="2"/>
+  <rect x="0" y="156" width="900" height="4" fill="url(#glow)" rx="2"/>
+
+  <!-- Lightning bolt icon -->
+  <text x="48" y="100" font-size="64" font-family="sans-serif" text-anchor="middle" fill="url(#glow)">⚡</text>
+
+  <!-- Main title -->
+  <text x="100" y="72" font-size="32" font-weight="bold" font-family="Segoe UI, Arial, sans-serif" fill="#ffffff">ITS: Power Quality Management</text>
+
+  <!-- Subtitle -->
+  <text x="100" y="108" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#a0a8c8">TH Köln · Campus Gummersbach · 2026</text>
+
+  <!-- Right side tag -->
+  <rect x="720" y="58" width="150" height="34" fill="#f7971e22" rx="6" stroke="#ffd200" stroke-width="1"/>
+  <text x="795" y="80" font-size="13" font-family="Segoe UI, Arial, sans-serif" fill="#ffd200" text-anchor="middle">Python 3.12 · Django 5.2</text>
+</svg>
