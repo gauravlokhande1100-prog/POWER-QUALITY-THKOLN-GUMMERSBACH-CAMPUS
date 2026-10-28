@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0c29"/>
-      <stop offset="50%" style="stop-color:#302b63"/>
-      <stop offset="100%" style="stop-color:#24243e"/>
+      <stop offset="0%" style="stop-color:#fffdf0"/>
+      <stop offset="50%" style="stop-color:#fdf6e3"/>
+      <stop offset="100%" style="stop-color:#faebd7"/>
     </linearGradient>
     <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f7971e"/>
-      <stop offset="100%" style="stop-color:#ffd200"/>
+      <stop offset="0%" style="stop-color:#b8860b"/>
+      <stop offset="100%" style="stop-color:#d4a017"/>
     </linearGradient>
   </defs>
 
@@ -22,12 +22,12 @@
   <text x="48" y="100" font-size="64" font-family="sans-serif" text-anchor="middle" fill="url(#glow)">⚡</text>
 
   <!-- Main title -->
-  <text x="100" y="72" font-size="32" font-weight="bold" font-family="Segoe UI, Arial, sans-serif" fill="#ffffff">ITS: Power Quality Management</text>
+  <text x="100" y="72" font-size="32" font-weight="bold" font-family="Segoe UI, Arial, sans-serif" fill="#2c2c2c">ITS: Power Quality Management</text>
 
   <!-- Subtitle -->
-  <text x="100" y="108" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#a0a8c8">TH Köln · Campus Gummersbach · 2026</text>
+  <text x="100" y="108" font-size="16" font-family="Segoe UI, Arial, sans-serif" fill="#6b5e3e">TH Köln · Campus Gummersbach · 2026</text>
 
   <!-- Right side tag -->
-  <rect x="720" y="58" width="150" height="34" fill="#f7971e22" rx="6" stroke="#ffd200" stroke-width="1"/>
-  <text x="795" y="80" font-size="13" font-family="Segoe UI, Arial, sans-serif" fill="#ffd200" text-anchor="middle">Python 3.12 · Django 5.2</text>
+  <rect x="720" y="58" width="150" height="34" fill="#d4a01722" rx="6" stroke="#b8860b" stroke-width="1"/>
+  <text x="795" y="80" font-size="13" font-family="Segoe UI, Arial, sans-serif" fill="#7a5c00" text-anchor="middle">Python 3.12 · Django 5.2</text>
 </svg>
