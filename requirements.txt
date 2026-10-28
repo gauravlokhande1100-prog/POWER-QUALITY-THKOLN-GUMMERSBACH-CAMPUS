@@ -1,0 +1,25 @@
+# Web application
+Django>=5.2,<5.3
+psycopg[binary]>=3.2
+python-dotenv>=1.0
+django-axes>=8.0
+
+# Data and dashboards
+pandas>=2.2
+plotly>=6.0
+
+# Scheduled jobs
+APScheduler>=3.10,<4
+
+# Meters and messaging
+paho-mqtt>=2.1
+pymodbus>=3.8
+asyncua>=1.1
+
+# Machine learning
+scikit-learn>=1.5
+lightgbm>=4.5
+
+# Development tools
+ipykernel>=6.29
+pip-audit>=2.7
